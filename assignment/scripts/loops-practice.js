@@ -74,7 +74,7 @@ console.log('count from 0 to 5');
   let index = 0;
   const max = 5;
   while ( index < max){
-    console.log( 'in while loop. index:' , index);
+    console.log( 'in while loop. index:', index);
     index++;
   }
   
@@ -84,4 +84,7 @@ console.log('count backwards from 10 to 5');
 
   let index = 0;
   const max = ['10', '9', '8', '7', '6', '5']
-  while ( index < max)
+  while ( index < max){
+    console.log( ' in while loop. index:', index);
+    index--;
+  }
